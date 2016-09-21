@@ -61,7 +61,7 @@ a {
 a:hover{
 	text-decoration: underline;
 }
-/*div {
+div {
 		border: 1px solid gray;
 }
 
@@ -85,7 +85,6 @@ a:hover{
 	text-align: center;
 }
 .link-element img {
-	
 	vertical-align: middle;
 }
 .boxes {
@@ -110,4 +109,18 @@ a:hover{
 }
 .logo img {
 	padding-top: 58px;
+}
+.form {
+	height: 118px;
+}
+.search-bar {
+	border: 1px solid #ccc;
+	display: block;
+	margin: 0 auto 30px auto;
+	padding: 10px;
+	width: 550px;
+}
+.text-pitch {
+	height: 15px;
+	margin-top: 12px;
 }

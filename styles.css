@@ -52,7 +52,8 @@ table {
 /* Generic */
 
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: arial, sans-serif;
+	font-size: 13px;
 }
 a {
 	color: #666;
@@ -61,7 +62,7 @@ a {
 a:hover{
 	text-decoration: underline;
 }
-div {
+/*div {
 		border: 1px solid gray;
 }
 
@@ -104,11 +105,10 @@ div {
 	text-align: center;
 }
 .logo {
-	height: 233px;
-	margin: 89px auto 0 auto;
+	margin: 89px auto 30px auto;
 }
 .logo img {
-	padding-top: 58px;
+	padding-top: 50px;
 }
 .form {
 	height: 118px;
@@ -117,8 +117,44 @@ div {
 	border: 1px solid #ccc;
 	display: block;
 	margin: 0 auto 30px auto;
-	padding: 10px;
+	line-height: 38px;
+	font-size: 18px;
+	color: #777;
+	padding: 0 15px;
 	width: 550px;
+}
+.search-button {
+	padding: 10px 20px;
+	border: none;
+	background-color: #f1f1f1;
+	font-size: 13px;
+	font-weight: 600;
+	color: #777;
+	border-radius: 2px;
+	display: inline-block;
+}
+.search-button a:hover {
+	color: #999;
+	border: 1px solid #666;
+	text-decoration: none;
+}
+.random-button {
+	display: inline-block;
+}
+a .random-button {
+	line-height: 35px;
+	display: inline-block;
+	background-color: #f1f1f1;
+	border-radius: 2px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #777;
+	border: 1px solid #fff;
+	padding: 0 20px;
+}
+a:hover .random-button {
+	color: #333;
+	border: 1px solid #bbb;	
 }
 .text-pitch {
 	height: 15px;
